@@ -23,6 +23,7 @@ PC      960px a víc
 
 .kontakt {
 	border: 1px solid skyblue;
+	border-radius: 10px;
 	padding: 10px;
 }
 
