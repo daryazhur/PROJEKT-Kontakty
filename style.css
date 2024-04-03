@@ -24,10 +24,12 @@ PC      960px a víc
 .kontakt {
 	border: 1px solid skyblue;
 	border-radius: 10px;
-	padding: 10px;
+	padding: 0px;
 }
 
 .tym {
+	display: flex;
+	justify-content: center;
 	text-align: center;
 }
 
@@ -36,6 +38,7 @@ PC      960px a víc
 		display: flex;
 		flex-wrap: wrap;
 		width: 100%;
+		gap: 10px;
 	}
 	
 	.kontakt {
@@ -51,12 +54,11 @@ PC      960px a víc
 	.seznam {
 		display: flex;
 		flex-flow: wrap;
+		gap: 10px;
 	}
 	
 	.kontakt {
-		gap: 20px;
-		width: calc(100%/2);
-		margin: 0;	
+		width: 49%;
 	}
 
 	.foto {
@@ -74,10 +76,12 @@ PC      960px a víc
 	.seznam {
 		display: flex;
 		flex-direction: row;
+		justify-content: center;
+		gap: 10px;
 	}
 	.kontakt {
 		text-align: center;
-		width: calc(100%/4);
+		width: 24%;
 		flex-direction: column;
 	}
 
